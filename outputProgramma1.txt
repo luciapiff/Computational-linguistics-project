@@ -1,0 +1,95 @@
+Confrontate i due testi sulla base delle seguenti informazioni statistiche:
+1) Il numero di token
+
+il corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt è lungo 5154 token 
+
+il corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt è lungo 7432 token 
+
+il corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt è più lungo del corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt 
+
+
+------------------------------
+
+2) La lunghezza media delle frasi in termini di token
+
+la lunghezza media delle frasi in termini di token nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt è 19.7471264368 
+
+
+la lunghezza media delle frasi in termini di token nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt è 20.3616438356 
+
+il corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt ha una lunghezza media delle frasi in termini di token maggiore del corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt 
+
+
+------------------------------
+
+3 e 4) La grandezza del vocabolario e la ricchezza lessicale calcolata attraverso la Type Token Ratio (TTR) all'aumento del corpus per porzioni incrementali di 1000 token
+
+nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+nei primi 1000 token troviamo 397 parole tipo
+la TTR nei primi 1000 token è: 0.397 
+
+nei primi 2000 token troviamo 585 parole tipo
+la TTR nei primi 2000 token è: 0.2925 
+
+nei primi 3000 token troviamo 775 parole tipo
+la TTR nei primi 3000 token è: 0.258333333333 
+
+nei primi 4000 token troviamo 903 parole tipo
+la TTR nei primi 4000 token è: 0.22575 
+
+nei primi 5000 token troviamo 1116 parole tipo
+la TTR nei primi 5000 token è: 0.2232 
+
+in 5154 token (lunghezza totale) troviamo 1127 parole tipo
+in 5154 token (lunghezza totale) la TTR è: 0.218665114474 
+
+
+             -             
+
+nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+nei primi 1000 token troviamo 394 parole tipo
+la TTR nei primi 1000 token è: 0.394 
+
+nei primi 2000 token troviamo 643 parole tipo
+la TTR nei primi 2000 token è: 0.3215 
+
+nei primi 3000 token troviamo 831 parole tipo
+la TTR nei primi 3000 token è: 0.277 
+
+nei primi 4000 token troviamo 980 parole tipo
+la TTR nei primi 4000 token è: 0.245 
+
+nei primi 5000 token troviamo 1115 parole tipo
+la TTR nei primi 5000 token è: 0.223 
+
+nei primi 6000 token troviamo 1290 parole tipo
+la TTR nei primi 6000 token è: 0.215 
+
+nei primi 7000 token troviamo 1400 parole tipo
+la TTR nei primi 7000 token è: 0.2 
+
+in 7432 token (lunghezza totale) troviamo 1431 parole tipo
+in 7432 token (lunghezza totale) la TTR è: 0.192545748116 
+
+
+------------------------------
+
+5) Il rapporto tra sostantivi e verbi (indice che caratterizza variazioni di registro linguistico)
+
+nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt è: 1.9067688378
+
+nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt è: 1.11777777778
+
+nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt il rapporto tra sostantivi e verbi è maggiore rispetto al corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt 
+
+
+------------------------------
+
+6) La densità lessicale, calcolata come il rapporto tra il numero totale di occorrenze di Sostantivi, Verbi, Avverbi, Aggettivi e il numero totale di parole nel testo
+
+nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt è: 0.595141700405
+
+nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt è: 0.544429409111
+
+il corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt ha una densità lessicale maggiore rispetto al corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt 
+

@@ -1,0 +1,408 @@
+1) estraete ed ordinate in ordine di frequenza decrescente, indicando anche la relativa frequenza
+
+a) le 10 POS più frequenti nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+ POS: NN ---> frequenza: 708
+ POS: NNP ---> frequenza: 472
+ POS: IN ---> frequenza: 444
+ POS: DT ---> frequenza: 405
+ POS: JJ ---> frequenza: 325
+ POS: VB ---> frequenza: 303
+ POS: NNS ---> frequenza: 291
+ POS: . ---> frequenza: 261
+ POS: CC ---> frequenza: 220
+ POS: , ---> frequenza: 200
+
+a) le 10 POS più frequenti nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+ POS: IN ---> frequenza: 738
+ POS: NN ---> frequenza: 729
+ POS: PRP ---> frequenza: 612
+ POS: DT ---> frequenza: 496
+ POS: NNP ---> frequenza: 411
+ POS: , ---> frequenza: 410
+ POS: VB ---> frequenza: 399
+ POS: RB ---> frequenza: 382
+ POS: . ---> frequenza: 371
+ POS: NNS ---> frequenza: 342
+
+
+b) i primi 20 token più frequenti - ad esclusione della punteggiatura - nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+ token: the ---> frequenza: 206
+ token: and ---> frequenza: 195
+ token: to ---> frequenza: 151
+ token: of ---> frequenza: 105
+ token: will ---> frequenza: 97
+ token: a ---> frequenza: 72
+ token: our ---> frequenza: 66
+ token: We ---> frequenza: 57
+ token: in ---> frequenza: 57
+ token: is ---> frequenza: 49
+ token: we ---> frequenza: 45
+ token: for ---> frequenza: 43
+ token: are ---> frequenza: 39
+ token: also ---> frequenza: 36
+ token: Hillary ---> frequenza: 36
+ token: American ---> frequenza: 30
+ token: that ---> frequenza: 30
+ token: plan ---> frequenza: 29
+ token: going ---> frequenza: 26
+ token: The ---> frequenza: 24
+
+b) i primi 20 token più frequenti - ad esclusione della punteggiatura - nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+ token: to ---> frequenza: 251
+ token: the ---> frequenza: 193
+ token: and ---> frequenza: 167
+ token: I ---> frequenza: 156
+ token: of ---> frequenza: 137
+ token: a ---> frequenza: 127
+ token: you ---> frequenza: 107
+ token: in ---> frequenza: 100
+ token: that ---> frequenza: 83
+ token: And ---> frequenza: 83
+ token: we ---> frequenza: 80
+ token: is ---> frequenza: 80
+ token: for ---> frequenza: 70
+ token: he ---> frequenza: 69
+ token: what ---> frequenza: 56
+ token: our ---> frequenza: 54
+ token: about ---> frequenza: 52
+ token: this ---> frequenza: 52
+ token: have ---> frequenza: 50
+ token: be ---> frequenza: 48
+
+
+c) i primi 20 bigrammi di token più frequenti - che non contengono punteggiatura, articoli e congiunzioni- nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+ bigramma: We will ---> frequenza: 31
+ bigramma: going to ---> frequenza: 25
+ bigramma: we will ---> frequenza: 24
+ bigramma: will also ---> frequenza: 21
+ bigramma: are going ---> frequenza: 21
+ bigramma: We are ---> frequenza: 16
+ bigramma: plan to ---> frequenza: 15
+ bigramma: Hillary Clinton ---> frequenza: 14
+ bigramma: Trump Administration ---> frequenza: 13
+ bigramma: United States ---> frequenza: 13
+ bigramma: Administration will ---> frequenza: 13
+ bigramma: rebuild our ---> frequenza: 11
+ bigramma: our country ---> frequenza: 10
+ bigramma: to bring ---> frequenza: 9
+ bigramma: Real change ---> frequenza: 8
+ bigramma: Will Make ---> frequenza: 8
+ bigramma: bring back ---> frequenza: 8
+ bigramma: to our ---> frequenza: 8
+ bigramma: We Will ---> frequenza: 8
+ bigramma: Make America ---> frequenza: 8
+
+c) i primi 20 bigrammi di token più frequenti - che non contengono punteggiatura, articoli e congiunzioni- nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+ bigramma: Donald Trump ---> frequenza: 29
+ bigramma: I want ---> frequenza: 24
+ bigramma: to be ---> frequenza: 22
+ bigramma: going to ---> frequenza: 21
+ bigramma: want to ---> frequenza: 21
+ bigramma: I have ---> frequenza: 19
+ bigramma: I will ---> frequenza: 13
+ bigramma: he said ---> frequenza: 12
+ bigramma: I am ---> frequenza: 12
+ bigramma: to do ---> frequenza: 11
+ bigramma: what he ---> frequenza: 11
+ bigramma: people who ---> frequenza: 11
+ bigramma: I think ---> frequenza: 10
+ bigramma: we want ---> frequenza: 10
+ bigramma: tell you ---> frequenza: 10
+ bigramma: to make ---> frequenza: 10
+ bigramma: I was ---> frequenza: 10
+ bigramma: to say ---> frequenza: 9
+ bigramma: to vote ---> frequenza: 9
+ bigramma: our country ---> frequenza: 9
+
+
+d) i primi 20 trigrammi di token più frequenti - che non contengono punteggiatura, articoli e congiunzioni - nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+ trigramma: are going to ---> frequenza: 21
+ trigramma: We will also ---> frequenza: 14
+ trigramma: Trump Administration will ---> frequenza: 13
+ trigramma: We are going ---> frequenza: 11
+ trigramma: Will Make America ---> frequenza: 8
+ trigramma: We Will Make ---> frequenza: 8
+ trigramma: to bring back ---> frequenza: 7
+ trigramma: rebuild our badly ---> frequenza: 6
+ trigramma: badly depleted military ---> frequenza: 6
+ trigramma: to our government ---> frequenza: 6
+ trigramma: our badly depleted ---> frequenza: 6
+ trigramma: Obama-Clinton defense sequester ---> frequenza: 6
+ trigramma: to 15 percent ---> frequenza: 6
+ trigramma: unnecessary job-killing regulation ---> frequenza: 5
+ trigramma: biggest tax cut ---> frequenza: 5
+ trigramma: we are going ---> frequenza: 5
+ trigramma: rebuild our military ---> frequenza: 5
+ trigramma: Supreme Court who ---> frequenza: 5
+ trigramma: going to have ---> frequenza: 5
+ trigramma: percent to 15 ---> frequenza: 5
+
+d) i primi 20 trigrammi di token più frequenti - che non contengono punteggiatura, articoli e congiunzioni - nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+ trigramma: I want to ---> frequenza: 10
+ trigramma: I want you ---> frequenza: 8
+ trigramma: want you to ---> frequenza: 8
+ trigramma: We’re going to ---> frequenza: 6
+ trigramma: to tell you ---> frequenza: 5
+ trigramma: to make sure ---> frequenza: 5
+ trigramma: what I want ---> frequenza: 5
+ trigramma: want them to ---> frequenza: 5
+ trigramma: you ready to ---> frequenza: 5
+ trigramma: going to fight ---> frequenza: 4
+ trigramma: not going to ---> frequenza: 4
+ trigramma: we want to ---> frequenza: 4
+ trigramma: want to thank ---> frequenza: 4
+ trigramma: stand up to ---> frequenza: 4
+ trigramma: I have to ---> frequenza: 4
+ trigramma: I don’t think ---> frequenza: 4
+ trigramma: want to do ---> frequenza: 4
+ trigramma: people who are ---> frequenza: 3
+ trigramma: we’re going to ---> frequenza: 3
+ trigramma: he has said ---> frequenza: 3
+
+---------------------------------------------
+
+2) estraete ed ordinate i 20 bigrammi composti da Aggettivo e Sostantivo (dove ogni token deve avere una frequenza maggiore di 2):
+
+a) con probabilità congiunta massima nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+ bigramma: Hillary Clinton ---> probabilità congiunta: 0.00271633682577
+ bigramma: Real change ---> probabilità congiunta: 0.00155219247187
+ bigramma: American Voter ---> probabilità congiunta: 0.0011641443539
+ bigramma: illegal immigration ---> probabilità congiunta: 0.0011641443539
+ bigramma: unnecessary job-killing ---> probabilità congiunta: 0.000970120294917
+ bigramma: illegal Obama ---> probabilità congiunta: 0.000970120294917
+ bigramma: biggest tax ---> probabilità congiunta: 0.000970120294917
+ bigramma: middle class ---> probabilità congiunta: 0.000970120294917
+ bigramma: inner cities ---> probabilità congiunta: 0.000776096235933
+ bigramma: criminal investigation ---> probabilità congiunta: 0.000776096235933
+ bigramma: natural gas ---> probabilità congiunta: 0.000776096235933
+ bigramma: clean coal ---> probabilità congiunta: 0.000776096235933
+ bigramma: American business ---> probabilità congiunta: 0.000776096235933
+ bigramma: special interests ---> probabilità congiunta: 0.000776096235933
+ bigramma: federal law ---> probabilità congiunta: 0.00058207217695
+ bigramma: unleash American ---> probabilità congiunta: 0.00058207217695
+ bigramma: Syrian Refugee ---> probabilità congiunta: 0.00058207217695
+ bigramma: American people ---> probabilità congiunta: 0.00058207217695
+ bigramma: common core ---> probabilità congiunta: 0.00058207217695
+ bigramma: massive double-digit ---> probabilità congiunta: 0.00058207217695
+
+a) con probabilità congiunta massima nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+ bigramma: nuclear weapons ---> probabilità congiunta: 0.000941872981701
+ bigramma: gun violence ---> probabilità congiunta: 0.0005382131324
+ bigramma: next president ---> probabilità congiunta: 0.0004036598493
+ bigramma: divisive vision ---> probabilità congiunta: 0.0002691065662
+ bigramma: big crowd ---> probabilità congiunta: 0.0002691065662
+ bigramma: college affordable ---> probabilità congiunta: 0.0002691065662
+ bigramma: many people ---> probabilità congiunta: 0.0002691065662
+ bigramma: nuclear codes ---> probabilità congiunta: 0.0002691065662
+ bigramma: good jobs ---> probabilità congiunta: 0.0002691065662
+ bigramma: young people ---> probabilità congiunta: 0.0002691065662
+ bigramma: important election ---> probabilità congiunta: 0.0002691065662
+ bigramma: hard work ---> probabilità congiunta: 0.0002691065662
+ bigramma: launch officers ---> probabilità congiunta: 0.0002691065662
+ bigramma: early voting ---> probabilità congiunta: 0.0002691065662
+ bigramma: more Americans ---> probabilità congiunta: 0.0002691065662
+ bigramma: something new ---> probabilità congiunta: 0.0001345532831
+ bigramma: same thing ---> probabilità congiunta: 0.0001345532831
+ bigramma: more people ---> probabilità congiunta: 0.0001345532831
+ bigramma: new jobs ---> probabilità congiunta: 0.0001345532831
+ bigramma: other day ---> probabilità congiunta: 0.0001345532831
+
+
+b) con probabilità condizionata massima nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+ bigramma: unnecessary job-killing ---> probabilità condizionata: 1.0
+ bigramma: biggest tax ---> probabilità condizionata: 1.0
+ bigramma: unleash American ---> probabilità condizionata: 1.0
+ bigramma: natural gas ---> probabilità condizionata: 1.0
+ bigramma: common core ---> probabilità condizionata: 1.0
+ bigramma: Real change ---> probabilità condizionata: 1.0
+ bigramma: middle class ---> probabilità condizionata: 1.0
+ bigramma: Congressional Subpoena ---> probabilità condizionata: 1.0
+ bigramma: inner cities ---> probabilità condizionata: 0.8
+ bigramma: clean coal ---> probabilità condizionata: 0.8
+ bigramma: Republican House ---> probabilità condizionata: 0.75
+ bigramma: double-digit premium ---> probabilità condizionata: 0.75
+ bigramma: rigged system ---> probabilità condizionata: 0.666666666667
+ bigramma: special interests ---> probabilità condizionata: 0.666666666667
+ bigramma: federal law ---> probabilità condizionata: 0.6
+ bigramma: Syrian Refugee ---> probabilità condizionata: 0.6
+ bigramma: other countries ---> probabilità condizionata: 0.6
+ bigramma: home school ---> probabilità condizionata: 0.5
+ bigramma: better deal ---> probabilità condizionata: 0.4
+ bigramma: better future ---> probabilità condizionata: 0.4
+
+b) con probabilità condizionata massima nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+ bigramma: divisive vision ---> probabilità condizionata: 0.666666666667
+ bigramma: college affordable ---> probabilità condizionata: 0.666666666667
+ bigramma: young people ---> probabilità condizionata: 0.5
+ bigramma: launch officers ---> probabilità condizionata: 0.5
+ bigramma: nuclear weapons ---> probabilità condizionata: 0.466666666667
+ bigramma: next president ---> probabilità condizionata: 0.428571428571
+ bigramma: big crowd ---> probabilità condizionata: 0.333333333333
+ bigramma: little children ---> probabilità condizionata: 0.333333333333
+ bigramma: there’s work ---> probabilità condizionata: 0.333333333333
+ bigramma: many people ---> probabilità condizionata: 0.333333333333
+ bigramma: positive difference ---> probabilità condizionata: 0.333333333333
+ bigramma: stronger America ---> probabilità condizionata: 0.333333333333
+ bigramma: most people ---> probabilità condizionata: 0.333333333333
+ bigramma: small thing ---> probabilità condizionata: 0.333333333333
+ bigramma: long time ---> probabilità condizionata: 0.333333333333
+ bigramma: single family ---> probabilità condizionata: 0.333333333333
+ bigramma: gun violence ---> probabilità condizionata: 0.333333333333
+ bigramma: early voting ---> probabilità condizionata: 0.285714285714
+ bigramma: new jobs ---> probabilità condizionata: 0.25
+ bigramma: they’re love ---> probabilità condizionata: 0.25
+
+
+c) con LMI massima nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+bigramma: Hillary Clinton ---> LMI: 97.5646943946
+bigramma: Real change ---> LMI: 72.0763898158
+bigramma: middle class ---> LMI: 50.0477436349
+bigramma: unnecessary job-killing ---> LMI: 47.620609499
+bigramma: illegal immigration ---> LMI: 47.1669413225
+bigramma: American Voter ---> LMI: 44.5475173575
+bigramma: natural gas ---> LMI: 41.3259072874
+bigramma: biggest tax ---> LMI: 40.4177465421
+bigramma: special interests ---> LMI: 38.9860572846
+bigramma: inner cities ---> LMI: 38.7504825283
+bigramma: clean coal ---> LMI: 38.7504825283
+bigramma: illegal Obama ---> LMI: 37.9906124062
+bigramma: Congressional Subpoena ---> LMI: 32.2395429634
+bigramma: Republican House ---> LMI: 30.9944304656
+bigramma: Syrian Refugee ---> LMI: 30.0286461809
+bigramma: common core ---> LMI: 29.2395429634
+bigramma: double-digit premium ---> LMI: 28.7835336831
+bigramma: other countries ---> LMI: 28.7835336831
+bigramma: criminal investigation ---> LMI: 28.2963559167
+bigramma: massive double-digit ---> LMI: 26.7493179677
+
+c) con LMI massima nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+bigramma: nuclear weapons ---> LMI: 62.6685093354
+bigramma: gun violence ---> LMI: 37.0982891426
+bigramma: next president ---> LMI: 22.1676445548
+bigramma: college affordable ---> LMI: 21.3792195699
+bigramma: divisive vision ---> LMI: 20.5491445713
+bigramma: launch officers ---> LMI: 19.7190695728
+bigramma: big crowd ---> LMI: 19.3792195699
+bigramma: good jobs ---> LMI: 16.8002063355
+bigramma: nuclear codes ---> LMI: 16.7353633801
+bigramma: early voting ---> LMI: 15.1854964914
+bigramma: hard work ---> LMI: 13.5654383787
+bigramma: important election ---> LMI: 13.3792195699
+bigramma: young people ---> LMI: 12.9344347272
+bigramma: more Americans ---> LMI: 12.625280653
+bigramma: many people ---> LMI: 11.7645097258
+bigramma: small thing ---> LMI: 9.68960978494
+bigramma: they’re love ---> LMI: 9.27457228566
+bigramma: same thing ---> LMI: 8.95264419077
+bigramma: last year ---> LMI: 8.95264419077
+bigramma: own words ---> LMI: 8.95264419077
+
+---------------------------------------------
+
+3) le due frasi con probabilità più alta:
+
+a) nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt la frase con probabilità più alta calcolata con un modello di Markov di ordine 0 è:
+Hillary is the one who lied to the FBI. ---> con probabilità: 3.74358353494e-21
+
+a) nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt la frase con probabilità più alta calcolata con un modello di Markov di ordine 0 è:
+And I will stand up to them as president. ---> con probabilità: 2.6365980826e-22
+
+
+b) nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt la frase con probabilità più alta calcolata con un modello di Markov di ordine 1 è:
+Real change begins with immediately repealing and replacing Obamacare. ---> con probabilità: 1.75842783526e-07
+
+b) nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt la frase con probabilità più alta calcolata con un modello di Markov di ordine 1 è:
+Are you ready to volunteer these last seven days? ---> con probabilità: 3.71110319815e-10
+
+---------------------------------------------
+
+4) dopo aver individuato e classificato le Entità Nominate (NE) presenti nel testo, estraete:
+
+a) i 20 nomi propri di persona più frequenti (tipi), ordinati per frequenza nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+ nome proprio di persona:  Hillary ---> frequenza: 21
+ nome proprio di persona:  Hillary Clinton ---> frequenza: 14
+ nome proprio di persona:  Obamacare ---> frequenza: 9
+ nome proprio di persona:  Ronald Reagan ---> frequenza: 5
+ nome proprio di persona:  Radical Islamic ---> frequenza: 4
+ nome proprio di persona:  Michigan ---> frequenza: 2
+ nome proprio di persona:  Flint ---> frequenza: 2
+ nome proprio di persona:  Will Make America Great Again ---> frequenza: 2
+ nome proprio di persona:  Black America ---> frequenza: 2
+ nome proprio di persona:  Dream Big ---> frequenza: 2
+ nome proprio di persona:  Minnesota ---> frequenza: 2
+ nome proprio di persona:  Clintons ---> frequenza: 2
+ nome proprio di persona:  Naval Air ---> frequenza: 1
+ nome proprio di persona:  Make America Wealthy Again ---> frequenza: 1
+ nome proprio di persona:  Detroit ---> frequenza: 1
+ nome proprio di persona:  School ---> frequenza: 1
+ nome proprio di persona:  Donald Trump ---> frequenza: 1
+ nome proprio di persona:  Bill ---> frequenza: 1
+ nome proprio di persona:  America First ---> frequenza: 1
+ nome proprio di persona:  Eldercare Savings Accounts ---> frequenza: 1
+
+b) i 20 nomi propri di luogo più frequenti (tipi), ordinati per frequenza nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Trump.txt :
+nome luogo:  American ---> frequenza: 23
+nome luogo:  United States ---> frequenza: 13
+nome luogo:  America ---> frequenza: 7
+nome luogo:  Washington ---> frequenza: 4
+nome luogo:  North Carolina ---> frequenza: 4
+nome luogo:  Pennsylvania ---> frequenza: 3
+nome luogo:  Middle ---> frequenza: 3
+nome luogo:  China ---> frequenza: 3
+nome luogo:  Florida ---> frequenza: 2
+nome luogo:  D.C. ---> frequenza: 2
+nome luogo:  Michigan ---> frequenza: 2
+nome luogo:  Syrian ---> frequenza: 2
+nome luogo:  Detroit ---> frequenza: 1
+nome luogo:  Strength ---> frequenza: 1
+nome luogo:  New Navy ---> frequenza: 1
+nome luogo:  Mayport ---> frequenza: 1
+nome luogo:  State ---> frequenza: 1
+nome luogo:  Las Vegas ---> frequenza: 1
+nome luogo:  Baltimore ---> frequenza: 1
+nome luogo:  Nevada ---> frequenza: 1
+
+
+a) i 20 nomi propri di persona più frequenti (tipi), ordinati per frequenza nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+nome proprio di persona:  Donald Trump ---> frequenza: 27
+nome proprio di persona:  Donald ---> frequenza: 9
+nome proprio di persona:  Gabby ---> frequenza: 6
+nome proprio di persona:  Trump ---> frequenza: 5
+nome proprio di persona:  Mark ---> frequenza: 4
+nome proprio di persona:  Obama ---> frequenza: 3
+nome proprio di persona:  Bruce Blair ---> frequenza: 2
+nome proprio di persona:  Well ---> frequenza: 2
+nome proprio di persona:  Ohio ---> frequenza: 2
+nome proprio di persona:  Miss Universe ---> frequenza: 2
+nome proprio di persona:  Reagan ---> frequenza: 2
+nome proprio di persona:  Alicia Machado ---> frequenza: 2
+nome proprio di persona:  Ted Strickland ---> frequenza: 2
+nome proprio di persona:  Muslim ---> frequenza: 1
+nome proprio di persona:  Captain Khan ---> frequenza: 1
+nome proprio di persona:  Imagine ---> frequenza: 1
+nome proprio di persona:  Michael Cox ---> frequenza: 1
+nome proprio di persona:  Howard Stern ---> frequenza: 1
+nome proprio di persona:  Florida ---> frequenza: 1
+nome proprio di persona:  John Cranley ---> frequenza: 1
+
+b) i 20 nomi propri di luogo più frequenti (tipi), ordinati per frequenza nel corpus /Users/luciapifferi/Desktop/Lucia Pifferi Progetto LC/Clinton.txt :
+nome luogo:  America ---> frequenza: 20
+nome luogo:  United States ---> frequenza: 8
+nome luogo:  Ohio ---> frequenza: 5
+nome luogo:  Florida ---> frequenza: 4
+nome luogo:  American ---> frequenza: 4
+nome luogo:  Americans ---> frequenza: 3
+nome luogo:  Alicia ---> frequenza: 1
+nome luogo:  South Korea ---> frequenza: 1
+nome luogo:  Cincinnati ---> frequenza: 1
+nome luogo:  Kentucky ---> frequenza: 1
+nome luogo:  Dade City ---> frequenza: 1
+nome luogo:  Russia ---> frequenza: 1
+nome luogo:  Hello ---> frequenza: 1
+nome luogo:  Independents ---> frequenza: 1
+nome luogo:  Saudi Arabia ---> frequenza: 1
+nome luogo:  Indiana ---> frequenza: 1
+nome luogo:  Latinos ---> frequenza: 1
+nome luogo:  Washington ---> frequenza: 1
+nome luogo:  Charleston ---> frequenza: 1
+nome luogo:  Donald ---> frequenza: 1
